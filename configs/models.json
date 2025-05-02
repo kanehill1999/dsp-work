@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "id": "yolov8m",
+      "name": "YOLOv8 Medium",
+      "description": "Medium-sized YOLOv8 object detection model",
+      "architecture_type": "yolo",
+      "model_path": "yolov8m_weights",
+      "weight_file": "yolov8m_best.pt",
+      "output_classes": "visdrone"
+    },
+    {
+      "id": "faster_rcnn",
+      "name": "Faster RCNN",
+      "description": "Faster R-CNN object detection model",
+      "architecture_type": "faster_rcnn",
+      "model_path": "faster_weights",
+      "weight_file": "faster_best.pt",
+      "output_classes": "visdrone"
+    },
+    {
+      "id": "yolo 11n",
+      "name": "yolo11n",
+      "description": "model",
+      "architecture_type": "yolo",
+      "model_path": "C:/Users/Kaneh/OneDrive/Documents/Year 3/final dsp project code/final digital project final/models",
+      "weight_file": "C:/Users/Kaneh/OneDrive/Documents/Year 3/final dsp project code/final digital project final/yolo11n_weights/yolo11n_best.pt",
+      "output_classes": "test"
+    }
+  ]
+}
